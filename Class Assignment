@@ -74,4 +74,12 @@ else:
 print("Rating must be between 1 and 5.")   
 except ValueError:   
 print("Please enter a number.")      
-save_to_file(responses, rating)        again = input("\nDo you want to restart the process? (yes/no): ").strip().lower()        if again != "yes":            print("Goodbye! 馃槉")            breakif __name__ == "__main__":    main()
+save_to_file(responses, rating) 
+again = input("\nDo you want to restart the process? (yes/no): ").
+strip().lower()      
+if again != "yes":     
+print("Goodbye! 馃槉")      
+break
+if __name__ == "__main__": 
+main()
+
